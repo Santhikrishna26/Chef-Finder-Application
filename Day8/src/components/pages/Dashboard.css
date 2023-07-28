@@ -1,0 +1,44 @@
+/* Dashboard container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  
+}
+
+/* Dashboard section */
+.dashboard-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dashboard section content */
+.dashboard-section-content {
+  text-align: center;
+}
+
+/* Section titles */
+.dashboard-section-content h1,
+.dashboard-section-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Section description */
+.dashboard-section-content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Dashboard image */
+.dashboard-section-content img {
+  width: 1220px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+

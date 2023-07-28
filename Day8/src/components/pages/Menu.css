@@ -1,0 +1,40 @@
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Card {
+  max-width: 345px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.CardMedia img {
+  width: 100%;
+  height: auto;
+}
+
+.CardContent {
+  padding: 16px;
+}
+
+.CardActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.ExpandMoreIcon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.ExpandMoreIcon.rotated {
+  transform: rotate(180deg);
+}
+
+.Collapse {
+  padding: 16px;
+}
